@@ -1,5 +1,5 @@
 const array = [0,1,2,3,4,5];
-const MyArray= ["Spiderman", "Batman"]
+const MyArray= ["Spiderman", "Batman","Hulk","Thor","Strange"]
 
 const myArray2 = new Array (0,1,2,3,4,5);
 // console.log(array[0]);
@@ -18,11 +18,11 @@ const myArray2 = new Array (0,1,2,3,4,5);
 // console.log(array);
 // console.log(typeof newArr)
 
-console.log("A " + array);
-const myn1 = array.slice(1, 3)
-console.log(myn1);
+console.log("A " + MyArray);
+const myn1 = MyArray.slice(0, 2)
+console.log("Slice is : " +myn1);
 
-console.log("B " + array);
-const myn2 = array.splice(1, 4)
-console.log(myn2);
-console.log("c " + array);
+console.log("B " + MyArray);
+const myn2 = MyArray.splice(0, 2)
+console.log("Splice is : "+ myn2);
+console.log("c " + MyArray);

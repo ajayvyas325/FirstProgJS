@@ -1,3 +1,4 @@
+
 "use strict" // treat all JS Code as new version
 
 // alert(3+3) we are using NodeJS not a browser
